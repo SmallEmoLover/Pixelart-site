@@ -4,9 +4,9 @@ img{
 }
 h1 {
     margin: 0;
-    font-size: 650%;
+    font-size: 850%;
     text-align: center;
-    text-shadow: 4px 4px pink;
+    text-shadow: 4px 4px pink, 6px 6px white;
 }
 div {
     padding-top: 0;
@@ -33,6 +33,16 @@ body{
     height: 100%;
     animation: cloud_floating 900s linear infinite;
     z-index: 0;
+}
+#frog {
+    background: url(./images/frog.png);
+    left: 37%;
+    top: 30%;
+    background-size: 100% 100%;
+    position: fixed;
+    width: 25%;
+    height: 50%;
+    z-index: 2;
 }
 
 @keyframes cloud_floating {
