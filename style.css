@@ -2,7 +2,17 @@ img{
     width: 50%;
     height: auto;
 }
+h1 {
+    margin: 0;
+    font-size: 650%;
+    text-align: center;
+    text-shadow: 4px 4px pink;
+}
+div {
+    padding-top: 0;
+}
 body{
+    font-family: 'Conv_pixel';
     margin: 0%;
     background-color: rgb(117,187,253);
 }
@@ -27,5 +37,5 @@ body{
 
 @keyframes cloud_floating {
     from {background-position: 0px 0px;}
-    to {background-position: 1000% 0px;}         
+    to {background-position: 1000% 500%;}         
 }
