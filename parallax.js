@@ -1,4 +1,4 @@
-const abc = document.getElementById("big_clouds");
+const abc = document.getElementById("clouds");
 
 document.addEventListener("mousemove", function (e) { moveMe(e); });
 
