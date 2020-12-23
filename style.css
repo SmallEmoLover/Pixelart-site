@@ -4,7 +4,7 @@ img{
 }
 h1 {
     margin: 0;
-    font-size: 850%;
+    font-size: 1600%;
     text-align: center;
     text-shadow: 4px 4px pink, 6px 6px white;
 }
@@ -15,6 +15,18 @@ body{
     font-family: 'Conv_pixel';
     margin: 0%;
     background-color: rgb(117,187,253);
+}
+#to_description{
+    font-family: 'Conv_pixel';
+    font-size: 220%;
+    background-color: aqua;
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 70%;
+    left: 10%;
+    z-index: 2;
+    cursor: pointer;
 }
 #big_clouds{
     background: url(./images/big_clouds.png);
@@ -37,19 +49,20 @@ body{
 #frog {
     background: url(./images/frog.png);
     left: 37%;
-    top: 35%;
+    top: 45%;
     background-size: 100% 100%;
     position: fixed;
     width: 25%;
     height: 50%;
     z-index: 2;
+    cursor: help;
     animation: frog_floating 10s ease infinite;
 }
 
 @keyframes frog_floating {
-    from { top: 35%; }
-    50%  { top: 25%; }
-    to   { top: 35%; }
+    from { top: 45%; }
+    50%  { top: 30%; }
+    to   { top: 45%; }
 }
 
 @keyframes cloud_floating {
