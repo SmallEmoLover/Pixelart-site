@@ -1,0 +1,10 @@
+body{
+    background: url(../images/ciy.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color:rgb(5, 20, 26);
+    background-size: 100% auto;
+}
+pre{
+    font-size: 200%;
+}

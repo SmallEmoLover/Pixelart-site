@@ -27,19 +27,19 @@ body{
     cursor: pointer;
 }
 #big_clouds{
-    background: url(./images/big_clouds.png);
+    background: url(../images/big_clouds.png);
     background-size: 60% 60%;
     animation: big_cloud_floating 1000s linear infinite;
     z-index: 1;
 }
 #small_clouds{
-    background: url(./images/small_clouds.png);
+    background: url(../images/small_clouds.png);
     background-size: 40% 40%;
     animation: small_cloud_floating 900s linear infinite;
     z-index: 0;
 }
 #frog {
-    background: url(./images/frog.png);
+    background: url(../images/frog.png);
     left: 37%;
     top: 45%;
     background-size: 100% 100%;
