@@ -6,24 +6,60 @@ body{
     background-color: black;
     background-size: 100% auto;
     color:aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+#bottom {
+    vertical-align: bottom;
+    margin: 0%;
+    padding: 0%;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+    padding:2% 4%;
+}
+img {
+    width: 100%;
+    height: auto;
 }
 h1{
     position: absolute;
+    text-align: center;
+    margin: 0;
     top: 20%;
+    left: 2%;
     font-size: 1100%;
     width: 98%;
     text-shadow: 4px 4px red, 8px 8px black;
 }
-#text{
-    margin: 0;
-    top: 130%;
-    left: 5%;
-    position:absolute;
-    width: 90%;
+#page{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: -2%;
+    top: 120%;
+    position: absolute;
+    width: 100%;
     height: auto;
     font-size: 300%;
+}
+#text {
+    margin: 3%;
+    padding: 5%;
 }
 .photo_description {
     margin: 0;
     font-size: 75%;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+figure {
+    width: 30%;
+}
+figcaption {
+    text-align: center;
 }
