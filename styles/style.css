@@ -2,7 +2,7 @@ h1 {
     margin: 0;
     font-size: 1600%;
     text-align: center;
-    text-shadow: 4px 4px pink, 6px 6px white;
+    text-shadow: 4px 4px rgb(255, 0, 128), 6px 6px white;
 }
 div {
     position: fixed;
@@ -17,14 +17,20 @@ body{
 #to_description{
     font-family: 'Conv_pixel';
     font-size: 220%;
-    background-color: aqua;
+    background-image: url(../images/frog_button.png);
+    background-color: transparent;
+    background-size: 100% 100%;
+    border: none;
     position: fixed;
     width: 20%;
-    height: 20%;
-    top: 70%;
-    left: 10%;
+    height: 40%;
+    top: 50%;
+    left: 6%;
     z-index: 2;
     cursor: pointer;
+}
+#to_description:hover{
+    background-image: url(../images/frog_button_hover.png);
 }
 #big_clouds{
     background: url(../images/big_clouds.png);

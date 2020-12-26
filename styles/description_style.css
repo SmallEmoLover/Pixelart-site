@@ -17,7 +17,8 @@ body{
 th {
     text-align: left;
     font-weight: normal;
-    padding:2% 4%;
+    padding:2% 2%;
+    width: 50%;
 }
 img {
     width: 100%;
@@ -36,7 +37,6 @@ h1{
 #page{
     margin: 0%;
     padding: 0%;
-    margin-bottom: -2%;
     top: 120%;
     position: absolute;
     width: 100%;
