@@ -14,22 +14,26 @@ body{
     margin: 0%;
     background-color: rgb(117,187,253);
 }
-#to_description{
-    font-family: 'Conv_pixel';
-    font-size: 220%;
-    background-image: url(../images/frog_button.png);
-    background-color: transparent;
+a {
     background-size: 100% 100%;
-    border: none;
     position: fixed;
     width: 20%;
     height: 40%;
     top: 50%;
-    left: 6%;
     z-index: 2;
-    cursor: pointer;
+}
+#to_description{
+    background-image: url(../images/frog_description_button.png);
+    left: 6%;
+}
+#to_draw{
+    background-image: url(../images/frog_draw_button.png);
+    right: 6%;
 }
 #to_description:hover{
+    background-image: url(../images/frog_button_hover.png);
+}
+#to_draw:hover{
     background-image: url(../images/frog_button_hover.png);
 }
 #big_clouds{
