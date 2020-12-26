@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color:aliceblue;
+    font-family: 'Conv_pixel';
+    font-size: 350%;
+    margin: 2%;
+}
+#title {
+    font-size: 150%;
+    margin-right: 25%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+img {
+    margin: 0% 5%;
+}
+div {
+    overflow: hidden;
+}
+a {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    width: 14%;
+    height: 25%;
+    background: url(../images/back_button.png);
+    background-size: 100% 100%;
+}
+a:hover {
+    background-image: url(../images/frog_button_hover.png);
+}

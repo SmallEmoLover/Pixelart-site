@@ -1,7 +1,7 @@
 const button = document.getElementById("up_button");
 
 function show_button(){
-    if(window.pageYOffset >= window.innerHeight * 1.4) {
+    if(window.pageYOffset >= window.innerHeight * 1.5) {
         button.style.opacity = '1';
     }
     else {
