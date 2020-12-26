@@ -58,7 +58,7 @@ h1{
     float: left;
 }
 figure {
-    width: 30%;
+    width: 28%;
 }
 figcaption {
     text-align: center;
@@ -75,13 +75,14 @@ figcaption {
     z-index: 2;
 }
 #back_button {
-    background: url(../images/back_arrow.png);
+    background: url(../images/back_button.png);
     position: absolute;
     width: 17%;
-    height: 2%;
-    top: 1%;
+    height: 5%;
+    top: 0%;
     right: 10%;
     background-size: 100% 100%;
-    line-height: 150%;
-    text-align: center;
+}
+#back_button:hover {
+    background-image: url(../images/frog_button_hover.png);
 }
